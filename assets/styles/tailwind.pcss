@@ -24,3 +24,20 @@
     src: url(../fonts/Barlow-Black.ttf)
   }
 }
+
+@layer components {
+  .menu-nav {
+    @apply uppercase text-indigo-dye text-sm font-extrabold hidden;
+  }
+  .opened {
+    @apply flex flex-col absolute bg-white w-full left-0 px-4 pb-4 items-start;
+  }
+  .opened > * ~ * {
+    @apply mt-2;
+  }
+  @screen lg {
+    .menu-nav {
+      @apply flex flex-row items-center justify-between static p-0;
+    }
+  }
+}

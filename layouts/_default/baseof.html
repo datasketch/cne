@@ -21,5 +21,8 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  <script src="{{ "vendors/moveto/moveTo.min.js" | absURL }}"></script>
+  {{ $default := resources.Get "js/default.js" | minify }}
+  <script src="{{ $default.Permalink }}"></script>
 </body>
 </html>
