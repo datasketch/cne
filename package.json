@@ -1,0 +1,26 @@
+{
+  "name": "cne",
+  "version": "1.0.0",
+  "description": "Micrositio CNE Colombia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datasketch/cne.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datasketch/cne/issues"
+  },
+  "homepage": "https://github.com/datasketch/cne#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0"
+  }
+}

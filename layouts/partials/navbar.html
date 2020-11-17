@@ -1,0 +1,41 @@
+<nav class="h-20 bg-white px-4">
+  <!-- Mobile -->
+  <div class="flex items-center justify-between lg:hidden">
+    <a href="{{.Site.BaseURL}}">
+      <img class="h-20" src="{{"images/logo-cne.jpg" | absURL }}" alt="Logo CNE">
+    </a>
+    <button class="text-indigo-dye">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-8 stroke-current" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <line x1="4" y1="6" x2="20" y2="6" />
+        <line x1="4" y1="12" x2="20" y2="12" />
+        <line x1="4" y1="18" x2="20" y2="18" />
+      </svg>
+    </button>
+  </div>
+  <!--Desktop-->
+  <div class="hidden lg:flex items-center justify-between uppercase text-indigo-dye text-sm font-extrabold">
+    <a href="{{.Site.BaseURL}}">
+      <img class="h-20" src="{{"images/logo-cne.jpg" | absURL }}" alt="Logo CNE">
+    </a>
+    <a href="" class="tracking-wide">Inicio</a>
+    <a href="" class="tracking-wide">El Estatuto</a>
+    <a href="" class="tracking-wide">El proyecto</a>
+    <a href="" class="tracking-wide">Visualizador</a>
+    <a href="" class="tracking-wide">Descarga de datos</a>
+    <div class="flex items-center space-x-4">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <img src="{{"images/fb.png" | absURL}}" alt="">
+      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <img src="{{"images/ig.png" | absURL}}" alt="">
+      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <img src="{{"images/tw.png" | absURL}}" alt="">
+      </a>
+      <a href="">
+        <img src="{{"images/mail.png" | absURL}}" alt="">
+      </a>
+    </div>
+  </div>
+</nav>

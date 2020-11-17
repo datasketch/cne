@@ -1,0 +1,4 @@
+baseURL = "https://datasketch.github.io/cne"
+languageCode = "es"
+title = "CNE Colombia"
+publishDir = "docs"
