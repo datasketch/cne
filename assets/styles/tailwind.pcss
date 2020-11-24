@@ -35,6 +35,18 @@
   .opened > * ~ * {
     @apply mt-2;
   }
+  details {
+    @apply relative;
+  }
+  details > summary {
+    @apply cursor-pointer list-none select-none;
+  }
+  details > summary:focus {
+    @apply outline-none;
+  }
+  details > summary::-webkit-details-marker {
+    @apply hidden;
+  }
   @screen lg {
     .menu-nav {
       @apply flex flex-row items-center justify-between static p-0;
