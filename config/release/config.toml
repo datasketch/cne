@@ -1,4 +1,4 @@
-baseURL = "https://www.cne.gov.co/estatuto-de-la-oposicion-en-colombia"
+baseURL = "https://www.cne.gov.co/estatuto-de-la-oposicion-en-colombia/"
 languageCode = "es"
 title = "CNE Colombia"
 publishDir = "release"
