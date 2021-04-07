@@ -35,6 +35,9 @@
   .opened > * ~ * {
     @apply mt-2;
   }
+  .embed {
+    height: 200vh;
+  }
   details {
     @apply relative;
   }
@@ -46,6 +49,11 @@
   }
   details > summary::-webkit-details-marker {
     @apply hidden;
+  }
+  @screen md {
+    .embed {
+      @apply h-screen;
+    }
   }
   @screen lg {
     .menu-nav {
